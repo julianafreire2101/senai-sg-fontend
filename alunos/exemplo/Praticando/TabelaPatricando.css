@@ -1,0 +1,28 @@
+body {
+    font-family: calibri;
+    font-size: 14pt;
+    }
+    
+    .cabecalho {
+    font-weight: bold;
+    color: white;
+    background-color: rgb(79,129,189);
+    }
+    
+    .impar {
+  
+  background-color: rgb(208,216,232);
+    }
+
+    .par {
+  
+   background-color: rgb(233,237,244);
+    }
+
+    .caju {
+        background-color: rgb(208,216,232);
+    }
+
+    .caja {
+background-color: rgb(233,237,244);
+    }

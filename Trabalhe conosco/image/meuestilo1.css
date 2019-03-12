@@ -1,0 +1,23 @@
+h2 {
+color: rgba(255, 0, 56, 0.2); /* Define a cor da letra*/
+text-decoration: red underline; /*Define sublinhado*/
+text-align: center;/*Alinhamento do texto*/
+border: 2px solid;
+border-bottom: blue;
+border-radius: 10px;
+}
+
+
+p {
+color: darkgreen;
+font-style: italic;
+text-align: right;
+font-family: 'century';
+}
+
+body {
+    background-image: url('../aula.19.02.2019/imagens/images.png');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE hmtl>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulario</title>
+    </head>
+    <body>
+        <form>
+            <label for="nome">
+            <center>Qual seu nome? &nbsp;
+            </label>
+
+            <input 
+                type="text" 
+                name="nome" 
+                id="nome" 
+                size="20" 
+                maxlength="10" 
+                placeholder="Nome..."
+            /><!-- Fim do input nome -->
+
+            <br><br>
+            Digite sua senha:
+            <input 
+                type="password" 
+                name="senha" 
+                id="senha" 
+                size="10" 
+                maxlength="10" 
+                placeholder="Senha.."
+            /><!-- Fim do input senha -->
+
+            <br><br>
+            Você concorda com a Pena de Morte?<br>
+            <label for="concordo">
+                <input 
+                    type="checkbox" 
+                    name="concorda" 
+                    id="concordo" 
+                    value="concorda"
+                />concordo <br>
+            </label>
+
+            <input type="checkbox" name="discorda" value="discorda" checked>não concordo
+
+            <br><br>
+            Qual seu sexo?<br>
+            <input 
+                type="radio" 
+                name="sexo" 
+                value="masc"
+            /> Masculino <br>
+
+            <input 
+                type="radio" 
+                name="sexo" 
+                value="fem" 
+                checked
+            /> Feminino
+     
+            <br><br>
+            <label for="Cidades">Cidades: </label>
+            <select name="Cidades" id="Cidades">
+                <option disabled selected>Selecione uma Cidade</option>
+                <optgroup label="Rio Grande do Norte">
+                    <option value="ntl">Natal</option>
+                    <option value="par">Parnamirim</option>
+                    <option value="sga">São Gonçalo</option>
+                </optgroup>
+                <optgroup label="Paraíba">
+                    <option value="jpa">João Pessoa</option>
+                    <option value="cgd">Campina Grande</option>
+                </optgroup>
+            </select>
+            
+            <br><br>
+            Deixe aqui sua opinião! <br>
+            <textarea 
+                name="descrição" 
+                id="descrição" 
+                cols="30" rows="10"
+                placeholder="Aqui sua descrição..."
+            ></textarea>
+
+            <br>
+            <button type="submit">vai</button>  
+        </form>
+    </body>
+</html>
