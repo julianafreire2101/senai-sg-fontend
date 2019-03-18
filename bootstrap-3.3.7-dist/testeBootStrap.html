@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="cssTeste.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="corpo" class="container">
+        <h1>Bem vindo ao bootstrap</h1>
+        <form action="" method="GET">
+            <div class="row">
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+                        <!--Primeira Linha-->
+                        <div class="form-group col-lg-6">
+                            <label for="nome">Nome</label>
+                            <input type="text" class="form-control" name="nome" id="nome" maxlength="35">
+                        </div>
+                        <div class="form-group col-lg-6">
+                            <label for="nascimento">Data de Nascimento</label>
+                            <input type="date" class="form-control" name="nascimento" id="nascimento">
+                        </div>
+                        <!--Segunda Linha-->
+                        <div class="form-group col-lg-4">
+                            <label for="cpf">CPF</label>
+                            <input type="text" class="form-control" name="cpf" id="cpf" maxlength="11">
+                        </div>
+                        <div class="form-group col-lg-4">
+                            <label for="rg">RG</label>
+                            <input type="text" class="form-control" name="rg" id="rg" maxlength="7">
+                        </div>
+                        <div class="form-group col-lg-4">
+                            <label for="genero">Gênero</label>
+                            <select class="form-control">
+                                <option disabled selected>Selecione seu Gênero</option>
+                                <option>Masculino</option>
+                                <option>Feminino</option>
+                            </select>
+                        </div>
+                </fieldset>
+            </div>
+            <!--Segunda Área de Cadastro-->
+            <div class="row">
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+                        <!--Primeira Linha-->
+                        <div class="form-group col-lg-6">
+                            <label for="cep">CEP</label>
+                            <input type="text" class="form-control" name="cep" id="cep">
+                        </div>
+                        <div class="form-group col-lg-6">
+                            <label for="logradouro">Logradouro</label>
+                            <input type="text" class="form-control" name="logradouro" id="logradouro">
+                        </div>
+                        <!--Segunda Linha-->
+                        <div class="form-group col-lg-4">
+                            <label for="cidade">Cidade</label>
+                            <input type="text" class="form-control" name="cidade" id="cidade">
+                        </div>
+                        <div class="form-group col-lg-4">
+                            <label for="bairro">Bairro</label>
+                            <input type="text" class="form-control" name="bairro" id="bairro">
+                        </div>
+                        <div class="form-group col-lg-4">
+                            <label for="estado">Estado</label>
+                            <input type="text" class="form-control" name="estado" id="estado">
+                        </div>
+                </fieldset>
+            </div>
+            <!--Terceira Área de Cadastro-->
+            <div class="row">
+                <fieldset>
+                    <legend>Dados de Pagamento</legend>
+                    <!--Primeira Linha-->
+                    <div class="form-group col-lg-4">
+                            <label for="nomeTitular">Nome do Títular do Cartão</label>
+                            <input type="text" class="form-control" name="nomeTitular" id="nomeTitular" maxlength="35">
+                    </div>
+                    <div class="form-group col-lg-4">
+                        <label for="nascimentoTitular">Data de Nascimento do Títular</label>
+                        <input type="date" class="form-control" name="nascimentoTitular" id="nascimentoTitular">
+                    </div>
+                    <div class="form-group col-lg-4">
+                        <label for="bandeiraCartao">Bandeira do Cartão</label>
+                        <select class="form-control" id="bandeiraCartao">
+                            <option disabled selected>Selecione a Bandeira do Cartão</option>
+                            <option>Visa</option>
+                            <option>MasterCard</option>
+                            <option>Elo</option>
+                        </select>
+                    </div>
+                    <!--Segunda Linha-->
+                    <div class="form-group col-lg-4">
+                            <label for="numeroCartao">Número do Cartão</label>
+                            <input type="text" class="form-control" name="numeroCartao" id="numeroCartao" maxlength="16">
+                    </div>
+                    <div class="form-group col-lg-4">
+                        <label for="codigoCartao">CVS</label>
+                        <input type="text" class="form-control" name="codigoCartao" id="codigoCartao" maxlength="3">
+                    </div>
+                    <div class="form-group col-lg-4">
+                        <label for="validadeCartao">Data de Validade do Cartão</label>
+                        <input type="date" class="form-control" name="validadeCartao" id="validadeCartao">
+                    </div>
+                    <!--Terceira Linha-->
+                    <div class="form-group col-lg-3 col-lg-offset-2">
+                        <label for="parcela">Valor a Pagar</label>
+                        <div class="input-group">
+                            <div class="input-group-addon">$</div>
+                            <input type="text" class="form-control" id="exampleInputAmount" placeholder="Valor">
+                            <div class="input-group-addon">.00</div>
+                        </div>
+                    </div>
+                    <div class="form-group col-lg-4">
+                        <label for="parcela">Quantidade de Parcelas</label>
+                        <select class="form-control" id="parcela">
+                            <option disabled selected>Selecione a quantidade de Parcelas</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                        </select>
+                    </div>
+                </fieldset>
+            </div>
+        <div class="row">
+            <div class="form-group col-lg-12">
+                <button type="submit" class="btn btn-primary">Cadastrar</button>
+                <button type="reset" class="btn btn-danger">Limpar</button>
+            </div>
+        </div>
+        </form>
+    </div>
+</body>
+</html>
