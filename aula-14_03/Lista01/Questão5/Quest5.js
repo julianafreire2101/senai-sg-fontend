@@ -1,4 +1,5 @@
-let cm = parseFloat(prompt("Insira os metros a serem convertidos:"));
+let metros = parseFloat(prompt("Digite os metros a serem convertidos: "));
 
-let media = cm * m /100;
-alert (media);
+ let centimetros = (metros * 100);
+
+alert(metros + " Metros equivalem a " + centimetros + " Centimetros:");

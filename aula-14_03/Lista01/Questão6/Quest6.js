@@ -1,6 +1,5 @@
-var metros = 0.88,
-    centimetros =0;
+let raio = parseFloat(prompt("Digite a area do Circulo em metros: "));
 
-centimetros = metros * 100;
+let area = (raio * 3.14);
 
-console.log(centimetros + ' cm');
+alert(raio + " Metros equivalem a " + area + " area");
