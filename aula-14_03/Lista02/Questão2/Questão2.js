@@ -1,10 +1,4 @@
-//algoritimo 1
-let n1 = parseFloat(prompt("Digite o primeiro numero"));
-let n2 = parseFloat(prompt("Digite o segundo numero"));
-let r1 = parseFloat(prompt("Digite o terceiro numero"));
+let altura = parseFloat(prompt("Qual a sua altura: "));
+let peso = (72.7 * altura) - 58;
 
-let media = n1 * n2 * (n2 / 2);
-
-alert (media);
-
-//algoritimo 2
+alert(peso.toFixed(2));

@@ -1,10 +1,11 @@
-//algoritimo 1
-let n1 = parseFloat(prompt("Digite o primeiro numero"));
-let n2 = parseFloat(prompt("Digite o segundo numero"));
-let r1 = parseFloat(prompt("Digite o terceiro numero"));
+let peso = parseFloat(prompt("Entre com o peso: "));
 
-let media = n1 * n2 * (n2 / 2);
+if(peso>50) {
+    let excesso = peso - 50;
 
-alert (media);
+    let multa = excesso * 4;
 
-//algoritimo 2
+    alert("A multa é: "+ multa);
+}else{
+    alert("Não tem multa");
+}

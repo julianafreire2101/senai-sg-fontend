@@ -1,10 +1,15 @@
-//algoritimo 1
-let n1 = parseFloat(prompt("Digite o primeiro numero"));
-let n2 = parseFloat(prompt("Digite o segundo numero"));
-let r1 = parseFloat(prompt("Digite o terceiro numero"));
+let altura = parseFloat(prompt("Qual a sua altura: "));
+let genero = String(prompt("Qual o seu genero: "));
 
-let media = n1 * n2 * (n2 / 2);
+let peso = 0;
 
-alert (media);
+if(genero == "Masculino"){
 
-//algoritimo 2
+    peso = (72.7 * altura) - 58;
+    
+}else if(genero == "Feminino"){
+
+    peso = (62.1 * altura) - 44.7;
+}
+
+alert(peso.toFixed(2));
