@@ -1,10 +1,9 @@
-//algoritimo 1
-let n1 = parseFloat(prompt("Digite o primeiro numero"));
-let n2 = parseFloat(prompt("Digite o segundo numero"));
-let r1 = parseFloat(prompt("Digite o terceiro numero"));
+let rSocial = String(prompt("Informe a Rede Social de Preferência"));
+if(rSocial == "Facebook"){
+    
+  alert("www.facebook.com"+"Bem Vindo!");
 
-let media = n1 * n2 * (n2 / 2);
-
-alert (media);
-
-//algoritimo 2
+}else if(rSocial == "Orkut"){
+  alert("www.Orkut.com");
+  alert("ULTRAPASSADO!");
+}

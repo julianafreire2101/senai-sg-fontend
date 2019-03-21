@@ -1,10 +1,6 @@
-//algoritimo 1
-let n1 = parseFloat(prompt("Digite o primeiro numero"));
-let n2 = parseFloat(prompt("Digite o segundo numero"));
-let r1 = parseFloat(prompt("Digite o terceiro numero"));
+let metros = parseFloat(prompt("Digite o tamanho de metros quadrados: "));
+let qtd_tintas = (metros / 3);
+let qtd_latas = (qtd_tintas / 18);
+let preco = (qtd_latas * 80);
 
-let media = n1 * n2 * (n2 / 2);
-
-alert (media);
-
-//algoritimo 2
+alert("A quantidade de latas de tinta é: "+qtd_latas.toFixed(0)+"\nA quantidade de tintas é: "+qtd_tintas.toFixed(0)+"\nO preço total é: "+preco.toFixed(2));
