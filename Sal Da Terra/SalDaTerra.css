@@ -1,11 +1,37 @@
+.body {
+    color: azure;
+    position: relative;
+    display: block;
+
+}
 .sal {
     background-color: #0099FF;
     image-orientation: 100px;
     font-family: arial;
+    image-rendering: auto;
 }
 
 .terra {
-    background-color: #00CCFF;
+    background-color: #0099FF;
     font-family: arial;
     
+}
+
+.da {
+    background-color: #0099FF;
+    font-family: arial;
+}
+.de {
+    background-color: #0099FF;
+    font-family: arial;
+
+}
+
+.di {
+    background-color: #0099FF;
+    font-family: arial;
+}
+.do {
+    background-color: #0099FF;
+    font-family: arial;
 }
